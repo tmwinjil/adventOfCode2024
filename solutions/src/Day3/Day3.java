@@ -130,7 +130,7 @@ public class Day3 {
         String filename = Objects.requireNonNull(Day3.class.getResource("input.txt")).getPath();
         FileParser parser = new FileParser(filename);
         List<String> lines = parser.readFile();
-        //System.out.println("The answer to part 1 is: " + part1(lines)); // 31103311 is too low, 32601251 is too low
+        System.out.println("The answer to part 1 is: " + part1(lines)); // 31103311 is too low, 32601251 is too low
         System.out.println("The answer to part 2 is: " + part2(lines)); // 94750962 is too low
     }
 }
